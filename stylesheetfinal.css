@@ -1,0 +1,88 @@
+
+/*This is the top navigation bar */
+.topnav{
+    background-color:#E14658;
+    overflow:hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:xx-large
+}
+/*This is for when the user hovers over the respective word it wil change color*/
+.topnav a:hover{
+    background-color:#22252C;
+    color:white;
+}
+/*This will make the page they are on a different color so they are aware of what page they are on*/
+.topnav a.active{
+    background-color: #22252C;
+    color: white;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+
+/*Body section set up*/
+body{
+    margin: 25px 50px 75px 100px;
+    background-color: rgba(196, 196, 196, 0.712);
+    text-align: center;
+    overflow:scroll;
+}
+/*This is the styling of the banner at the top of the page*/
+.banner-area{
+    background-image: url(images/navy\ background.jpg);
+    background-size: cover;
+    background-position: center center;
+    top:50px;
+    height:50vh;
+    width:100%;
+    position:relative;
+}
+
+.wrapper{
+    width:90%;
+    margin: 0 auto;
+}
+
+/*This is for the logo stating that it will float to the left next to the navbar*/
+.logo{
+    float: right;
+}
+/*This is for the card, it has a box-shadow,margin, size, and font-family*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  /*This is for the card button so it sits at the bottom of the card*/
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  /*Card button hover so user can see the change when hovering over it*/
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+ 
+
+  .button5 {border-radius: 50%;}
