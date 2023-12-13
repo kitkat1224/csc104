@@ -6,63 +6,104 @@
     <title>Katherine Ervin's Portfolio</title>
 
     <link rel="stylesheet" href="stylesheetfinal.css">
-   
+
+    <!--This includes the nav bar as well as the logo next to it-->
+
+    <div class="wrapper">
+        <div class="logo">
+            <img src="images/logo.png" alt="katherine Ervin designer and illustator" style="width:100px;height:90px;">
+        </div>
+        <div class="topnav" id="Topnav">
+            <a href="final_project.html" class="active">Home</a>
+            <a href="contact">Contact</a>
+            <a href="final_project.html#portfolio">Portfolio</a>
+            <a href="final_project.html#aboutmee">About Me</a>
+        </div> 
+    </div>
 
 </head>
 
 <body>
-<!--This includes the nav bar as well as the logo next to it-->
-    <div class="box-area">
-        <header>
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="images/logo.png" alt="katherine Ervin designer and illustator" style="width:100px;height:90px;">
-                </div>
-                <div class="topnav" id="Topnav">
-                    <a href="home" class="active">Home</a>
-                    <a href="contact">Contact</a>
-                    <a href="portfolio">Portfolio</a>
-                    <a href="aboutme">About Me</a>
-                </div> 
-            </div>
-        </header>
 
-<!--Banner image for the top of the page-->
+    <!--Banner image for the top of the page-->
+    <div class="box-area">
         <div class="banner-area">
         </div>
     </div>
 
-
-<!--This whill display all text and image content on the screen-->
-    <div class="content"> 
-
-        <h2>About Me</h2>
-            <p>..</p>
-
-        <h2>Services</h2>
-
-        <h2>Work History</h2>
-
+<!--This will display all text and image content on the screen-->
+<section class="aboutmeSec">
+    
+    <!--Here is where I have it were the user clicks about me and it redirects them to the about me section on the webpage-->
+    <a name="aboutmee"></a>
+    <div class="row1">
+        <div class="column1 left">
+            <div class="roundedcorners AboutInfoMargins">
+                <h2>
+                    ABOUT ME/INFO
+                </h2>
+                <p>
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafdxghdfghdfgh 
+                    rghtfghrfdthrfghfgh
+                </p>
+            </div>
+            <div class="roundedcorners">
+               <h2> Work History</h2>
+               <p>
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafdxghdfghdfgh 
+                rghtfghrfdthrfghfgh
+            </p>
+            </div>
+        </div>
+        <div class="column1 right">
+            <div class="servicemargins roundedcorners">
+                <h2>Services</h2>
+                <p>
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafdxghdfghdfgh 
+                    rghtfghrfdthrfghfgh
+                </p>
+            </div>
+        </div>
     </div>
+</section>
+
 <!--Banner with section labeling, this is a placeholder image for now and will be changed later-->
     <div class="container">
         <img src="images/navy background.jpg" alt="background image" style="top:50px; height:50vh; width:100%; position:relative;">
         <div class="centered">Centered</div>
     </div> 
 <!--Cards with what each section is and the buttons to link to the page. Links have yet to be put in and images are placeholders to be changed later-->
-    <div class="card">
-        <img src="images/colored box.JPG" alt="colored box placeholder" style="width:100%">
-        <h3>3D Projects</h3>
-        <p>Some of my 3D works, check it out!</p>
-        <p><button>Go to Portfolio</button></p>
-      </div> 
 
-    <div class="card">
-        <img src="images/colored box.JPG" alt="colored box placeholder" style="width:100%">
-        <h3>2D Projects</h3>
-        <p>Some of my 2D works, check it out!</p>
-        <p><button>Go to Portfolio</button></p>
-    </div> 
+<section class="PortfolioSec">
+    <a name="portfolio"></a>
+    <div class="row1">
+        <div class="column1 left">
+            <div class="card">
+                <img src="images/colored box.JPG" alt="colored box placeholder" style="width:100%">
+                <h3>2D Projects</h3>
+                <p>Some of my 2D works, check it out!</p>
+                <p>
+                    <a href="3dworks_finalproj.html">
+                        <button>Go to Portfolio</button>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="column1 right">
+            <div class="card">
+                <img src="images/colored box.JPG" alt="colored box placeholder" style="width:100%">
+                <h3>3D Projects</h3>
+                <p>Some of my 3D works, check it out!</p>
+                <p>
+                    <a href="3dworks_finalproj.html">
+                        <button>Go to Portfolio</button>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--Footer at the bottom of the page, style embedded so it does not effect everything else on the page.-->
     <style>
         .footer {
