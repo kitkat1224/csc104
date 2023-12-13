@@ -33,7 +33,7 @@
 /*Body section set up*/
 body{
     margin: 25px 50px 75px 100px;
-    background-color: rgba(196, 196, 196, 0.712);
+    background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);
     text-align: center;
     overflow:scroll;
 }
@@ -86,3 +86,32 @@ body{
  
 
   .button5 {border-radius: 50%;}
+
+   /*rows and columns for the about me section*/
+   .row1 {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+   }
+   .column1 {
+    flex: 1 0 0%;
+   }
+   /*This is for the about me section (Fonts, paddings, setting margins)*/
+   .servicemargins {
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+   } 
+   /*rounded corners*/
+   .roundedcorners {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    background-color: aqua;
+    padding: 20px; 
+    height: 150px; 
+   }
+   .AboutInfoMargins {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+   } 
