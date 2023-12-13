@@ -1,0 +1,98 @@
+
+
+/*This is the top navigation bar */
+.topnav{
+    background-color:#F7AFBA;
+    overflow:hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #424EB2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:xx-large
+}
+/*This is for when the user hovers over the respective word it wil change color*/
+.topnav a:hover{
+    background-color:#424EB2;
+    color:#F7AFBA;
+}
+/*This will make the page they are on a different color so they are aware of what page they are on*/
+.topnav a.active{
+    background-color: #424EB2;
+    color: #F7AFBA;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+
+/*Body section set up*/
+body{
+    margin: 25px 50px 75px 100px;
+    background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);
+    text-align: center;
+    overflow:scroll;
+    align-content: center;
+}
+
+/*This is for the logo stating that it will float to the left next to the navbar*/
+.logo{
+    float: right;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 50px;
+  }
+  
+  /* Create 3 equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 25px 50px;
+  }
+  
+  .column img {
+    margin-top: 10px;
+    vertical-align:middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout this makes a 2 column-layout instead of 3 columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout this makes the 2 columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+/*This adds all of the customization of the pill button that leads to email address*/
+  .button {
+    background-color: #6E6AB7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 100%;
+    height: 100px;
+  }
