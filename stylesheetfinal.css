@@ -1,8 +1,12 @@
 
+
+
 /*This is the top navigation bar */
 .topnav{
     background-color:#E14658;
     overflow:hidden;
+    font-family: Vintage Times;
+    src: url(vintage_times.zip);
 }
 
 .topnav a{
@@ -33,19 +37,21 @@
 /*Body section set up*/
 body{
     margin: 25px 50px 75px 100px;
-    background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);
+   /* background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);*/
+   background-color: #ffdddd;
     text-align: center;
     overflow:scroll;
+    font-size:x-large;
+    font-family: codigra;
+    src: url(codigra.zip)
 }
-/*This is the styling of the banner at the top of the page*/
-.banner-area{
-    background-image: url(images/navy\ background.jpg);
-    background-size: cover;
-    background-position: center center;
-    top:50px;
-    height:50vh;
-    width:100%;
-    position:relative;
+
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+img{
+    vertical-align: middle;
 }
 
 .wrapper{
@@ -60,10 +66,11 @@ body{
 /*This is for the card, it has a box-shadow,margin, size, and font-family*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 600px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    font-family: codigra;
+    src: url(codigra.zip)
   }
   
   /*This is for the card button so it sits at the bottom of the card*/
@@ -72,7 +79,7 @@ body{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #3C4659;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -107,11 +114,62 @@ body{
    .roundedcorners {
     border-radius: 25px;
     border: 2px solid #000000;
-    background-color: aqua;
+    background-color: #64C9C6;
     padding: 20px; 
     height: 150px; 
+    overflow: auto;
    }
    .AboutInfoMargins {
     margin-top: 2rem;
     margin-bottom: 4rem;
    } 
+
+/* This is the contact section at the bottom of the page before the footer*/
+.ContactSecStyle{
+    margin-top: 3.5rem;
+}
+/*Contact section divider font and setup*/
+.onedivider{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+/*This is the line that divides the contact me section*/
+.onedivider::before, .onedivider::after{
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: #64C9C6;
+    margin: 10px;
+}
+/*This is everything for the social media icons*/
+.fa{
+    padding: 40px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity:0.7;
+}
+
+.fa-google{
+    background-color: #E14658;
+    color:white;
+}
+
+.fa-linkedin{
+    background-color: #E14658;
+    color: white;
+}
+
+.fa-instagram{
+    background-color: #E14658;
+    color: white;
+}
+

@@ -2,14 +2,16 @@
 
 /*This is the top navigation bar */
 .topnav{
-    background-color:#F7AFBA;
+    background-color: #E14658;
     overflow:hidden;
+    font-family: Vintage Times;
+    src: url(vintage_times.zip);
 }
 
 .topnav a{
     float: left;
     display: block;
-    color: #424EB2;
+    color: black;
     text-align:center;
     padding:14px 16px;
     text-decoration: none;
@@ -17,13 +19,13 @@
 }
 /*This is for when the user hovers over the respective word it wil change color*/
 .topnav a:hover{
-    background-color:#424EB2;
-    color:#F7AFBA;
+    background-color:#22252C;
+    color:white;
 }
 /*This will make the page they are on a different color so they are aware of what page they are on*/
 .topnav a.active{
-    background-color: #424EB2;
-    color: #F7AFBA;
+    background-color: #22252C;
+    color: white;
 }
 
 .topnav .icon{
@@ -34,10 +36,12 @@
 /*Body section set up*/
 body{
     margin: 25px 50px 75px 100px;
-    background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);
+    /*background-image: url(images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg);*/
+    background-color: #ffdddd;
     text-align: center;
     overflow:scroll;
     align-content: center;
+
 }
 
 /*This is for the logo stating that it will float to the left next to the navbar*/
@@ -95,4 +99,6 @@ body{
     border-radius: 16px;
     width: 100%;
     height: 100px;
+    font-family: codigra;
+    src: url(codigra.zip)
   }
